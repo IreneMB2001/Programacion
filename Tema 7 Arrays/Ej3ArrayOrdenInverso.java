@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Ej3ArrayOrdenInverso {
   public static void main (String [] args) {
     Scanner s= new Scanner (System.in);
-    
+    //
     System.out.println(" ");
     
     //Declaracion de variables//

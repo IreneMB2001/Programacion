@@ -4,7 +4,7 @@
 */
 public class Ej1Array12Num {
   public static void main (String [] args) {
-    
+    //
     System.out.println(" ");
     
     int[] num=new int[12];

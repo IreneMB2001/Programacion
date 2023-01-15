@@ -3,6 +3,7 @@
 *Irene Martin
 */
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Ej14ColoresAntesQuePalabras {
   public static void main (String [] args) {
@@ -27,7 +28,7 @@ public class Ej14ColoresAntesQuePalabras {
     for (n=0; n<t; n++) {
       System.out.print(" Palabra " +n+ " --> ");
       serie[n]= s.next();
-      if () {
+      if (Arrays.asList(totalColores).contains(serie[n])) {
         color[contColor++]=serie[n]; //En la posicion segun el contador se establecen los colores//
       } else {
         noColor[contNoColor++]=serie[n]; //En la posicion segun el contador se establecen los que no son colores//

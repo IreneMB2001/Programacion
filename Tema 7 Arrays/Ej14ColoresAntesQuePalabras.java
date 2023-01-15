@@ -1,5 +1,5 @@
-/*Ej14ColoresAntesQuePalabras.java
-*Programa que genera 20 numeros aleatorios entre 0 y 100 y tiene que mostrar primero los pares y despues impares.
+/*Ej14ColoresAntesQuePalabras
+*Programa que te pide 8 palabras escritas por teclado y despues almacena primero los colores y despues las palabras restantes.
 *Irene Martin
 */
 import java.util.Scanner;
@@ -13,7 +13,7 @@ public class Ej14ColoresAntesQuePalabras {
     //Declaracion de variables//
     int t=8;
     String[] serie=new String[t]; //Array original//
-    String[]totalColores={"verde", "rojo", "azul", "amarillo", "naranja", "rosa", "negro", "blanco", "morado"};
+    String[] totalColores={"verde", "rojo", "azul", "amarillo", "naranja", "rosa", "negro", "blanco", "morado"};
     String[] color=new String[t]; //Array que almacena los valores que son colores del array original//
     String[] noColor=new String[t]; //Array que almacena los valores que no son colores del array original//
     int n;
@@ -27,7 +27,7 @@ public class Ej14ColoresAntesQuePalabras {
     for (n=0; n<t; n++) {
       System.out.print(" Palabra " +n+ " --> ");
       serie[n]= s.next();
-      if (serie[n]==totalColores[n]) {
+      if () {
         color[contColor++]=serie[n]; //En la posicion segun el contador se establecen los colores//
       } else {
         noColor[contNoColor++]=serie[n]; //En la posicion segun el contador se establecen los que no son colores//
